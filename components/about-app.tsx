@@ -12,7 +12,7 @@ export function AboutApp() {
       {/* Content */}
       <div className="flex-1 overflow-auto text-sm leading-relaxed">
         <p className="mb-4">
-          Hi👋, I'm Raphael Okeke, I'm a full-stack developer and creative
+          Hi 👋, I'm Raphael Okeke. A full-stack developer and creative
           technologist passionate about building beautiful, interactive digital
           experiences.
         </p>

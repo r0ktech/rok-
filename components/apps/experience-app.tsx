@@ -1,39 +1,31 @@
-'use client'
+"use client";
 
 export function ExperienceApp() {
   const experiences = [
     {
-      year: '2023-2024',
-      role: 'Senior Full-Stack Engineer',
-      company: 'Tech Innovators Inc.',
-      description: 'Led development of AI-powered design system and real-time collaboration tools.',
+      year: "Sept 2025 - Nov 2025",
+      role: "Backend Developer Intern",
+      company: "Apex Technology Hub & Services.",
+      description:
+        "Worked as a Back-End Developer Intern where I helped develop and maintain server-side logic, build APIs, and support database operations. I collaborated with the engineering team to improve performance, ensure data reliability, and contribute to backend features that supported real user workloads.",
     },
     {
-      year: '2022-2023',
-      role: 'Full-Stack Developer',
-      company: 'Digital Solutions Co.',
-      description: 'Built scalable web applications with React and Next.js, managed PostgreSQL databases.',
+      year: "2022-2023",
+      role: "Front-End Developer",
+      company: "Elegant Computers",
+      description:
+        "Worked as a Front-End Developer where I built responsive user interfaces, improved website performance, and collaborated with design and backend teams to deliver smooth, high-quality user experiences. I focused on clean code, modern frameworks, and creating interfaces that are visually appealing and easy to use..",
     },
-    {
-      year: '2021-2022',
-      role: 'Frontend Developer',
-      company: 'Creative Studio',
-      description: 'Developed interactive web experiences with focus on animation and user engagement.',
-    },
-    {
-      year: '2020-2021',
-      role: 'Junior Developer',
-      company: 'StartUp Hub',
-      description: 'Started career building web applications, learned modern web development practices.',
-    },
-  ]
+  ];
 
   return (
     <div className="h-full flex flex-col">
       {/* Header */}
       <div className="border-b border-border pb-2 mb-4">
         <div className="text-lg font-bold text-primary">Experience</div>
-        <div className="text-xs text-muted-foreground">Professional timeline</div>
+        <div className="text-xs text-muted-foreground">
+          Professional timeline
+        </div>
       </div>
 
       {/* Timeline */}
@@ -51,9 +43,13 @@ export function ExperienceApp() {
 
               {/* Content */}
               <div className="ml-4">
-                <div className="text-xs font-bold text-primary mb-1">{exp.year}</div>
+                <div className="text-xs font-bold text-primary mb-1">
+                  {exp.year}
+                </div>
                 <div className="font-semibold text-foreground">{exp.role}</div>
-                <div className="text-sm text-accent font-medium">{exp.company}</div>
+                <div className="text-sm text-accent font-medium">
+                  {exp.company}
+                </div>
                 <p className="text-sm text-muted-foreground mt-1.5 leading-relaxed">
                   {exp.description}
                 </p>
@@ -63,5 +59,5 @@ export function ExperienceApp() {
         </div>
       </div>
     </div>
-  )
+  );
 }

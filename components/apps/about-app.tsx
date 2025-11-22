@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 export function AboutApp() {
   return (
@@ -12,14 +12,16 @@ export function AboutApp() {
       {/* Content */}
       <div className="flex-1 overflow-auto text-sm leading-relaxed">
         <p className="mb-4">
-          Hi! I'm a full-stack developer and creative technologist passionate about building beautiful, interactive digital experiences.
+          Hi 👋, I'm Raphael Okeke. A full-stack developer and creative
+          technologist passionate about building beautiful, interactive digital
+          experiences.
         </p>
         <p className="mb-4">
-          With a background in design and development, I bridge the gap between aesthetics and functionality. I love exploring new technologies and bringing innovative ideas to life.
+          With a background in design and development, I bridge the gap between
+          aesthetics and functionality. I love exploring new technologies and
+          bringing innovative ideas to life.
         </p>
-        <p className="mb-4">
-          My expertise spans:
-        </p>
+        <p className="mb-4">My expertise spans:</p>
         <ul className="list-disc list-inside mb-4 space-y-1">
           <li>Modern web development with React, Next.js, and TypeScript</li>
           <li>Full-stack architecture and database design</li>
@@ -28,12 +30,16 @@ export function AboutApp() {
           <li>Creative experiments and unique digital concepts</li>
         </ul>
         <p className="mb-4">
-          When I'm not coding, you can find me exploring design trends, experimenting with new tools, or working on passion projects. I believe in continuous learning and pushing the boundaries of what's possible on the web.
+          When I'm not coding, you can find me exploring design trends,
+          experimenting with new tools, or working on passion projects. I
+          believe in continuous learning and pushing the boundaries of what's
+          possible on the web.
         </p>
         <p>
-          Let's build something amazing together! Feel free to explore this portfolio and reach out if you'd like to collaborate.
+          Let's build something amazing together! Feel free to explore this
+          portfolio and reach out if you'd like to collaborate.
         </p>
       </div>
     </div>
-  )
+  );
 }
